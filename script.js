@@ -2,8 +2,8 @@ var newDoucument=app.documents.add(1080, 1080, 300, "New Document", NewDocumentM
 var layers = newDoucument.artLayers;
 var newLayer = layers.add();
 newLayer.name = "New Layer";
-var imagePath= new File("~C:/Users/tomir/Documents/repók/photoshop_white_frame/teszt_fekvő.jpg");
-if(imagePath.exists)
+var imagePath= new File("C:/Users/tomir/Documents/repók/photoshop_white_frame/teszt_fekvő.jpg");
+if(imagePath.exists) 
     {
         placeFile(imagePath);
     }
